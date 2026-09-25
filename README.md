@@ -3,8 +3,7 @@
 > *Boutique stationery atelier & bespoke paper goods — Lake Forest, Illinois*
 
 [![Live Site](https://img.shields.io/badge/atelier-asterandblanche.com-23201D?style=flat-square&labelColor=FCFAF7)](https://asterandblanche.com)
-[![Cardstock](https://img.shields.io/badge/cardstock-100%20lb%20Archival-544F48?style=flat-square&labelColor=FCFAF7)](https://asterandblanche.com)
-[![Colophon](https://img.shields.io/badge/plate-Handwrytten%20%23751314-878177?style=flat-square&labelColor=FCFAF7)](https://asterandblanche.com)
+[![Cardstock](https://img.shields.io/badge/cardstock-120%20lb%20Archival-544F48?style=flat-square&labelColor=FCFAF7)](https://asterandblanche.com)
 
 ---
 
@@ -82,7 +81,7 @@ The architectural house vignette portrays the historic Aster & Blanche estate in
 ```
 
 - **Canvas Scale:** A2 Folded Card (`4.25" × 5.5"` at 200 DPI = `850px × 1100px`).
-- **Physical Handwrytten Integration:** Registered and active under Image ID **`751314`**.
+- **Paper Stock:** 120 lb archival uncoated cardstock.
 - **Vector Assets:**
   - [`aster-blanche-backplate.svg`](./aster-blanche-backplate.svg): Production-ready vector source for the complete A2 card backplate.
   - [`public/aster-blanche-backplate.svg`](./public/aster-blanche-backplate.svg): Mirror asset for web applications and static builds.
@@ -98,7 +97,7 @@ asterandblanche/
 ├── CNAME                       # Custom domain routing (asterandblanche.com)
 ├── favicon.ico                 # Atelier crest browser favicon
 ├── index.html                  # Single-file, zero-dependency master atelier page
-├── aster-blanche-backplate.svg # Master A2 card backplate vector asset (Plate #751314)
+├── aster-blanche-backplate.svg # Master A2 card backplate vector asset
 ├── og-image.png                # Social preview card metadata asset
 ├── public/
 │   └── aster-blanche-backplate.svg
@@ -144,7 +143,7 @@ When contributing to this repository, please observe the following guardrails:
 1. **Protect the Brand Persona:** Under no circumstances should automated robot terminology or corporate SaaS tropes be introduced to this repository.
 2. **Preserve Vector Crispness:** Do not substitute low-resolution raster imagery for the vector house vignette. Keep the vector strokes aligned with the four stroke weight tiers (`1.8px`, `1.2px`, `0.75px`, `0.5px`).
 3. **Keep It Lightweight:** Maintain zero runtime dependencies. The entire site must load instantly on mobile devices with zero layout shift.
-4. **Lock Backplate Artwork:** The physical backplate artwork in `aster-blanche-backplate.svg` corresponds to verified Handwrytten Plate `#751314`. Do not alter geometry without re-verifying physical print proofs.
+4. **Lock Backplate Artwork:** The backplate artwork in `aster-blanche-backplate.svg` is finalized and centered for the A2 folded cardstock. Do not alter geometry without re-verifying physical print proofs.
 
 ---
 
