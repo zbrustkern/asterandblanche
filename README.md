@@ -96,11 +96,12 @@ asterandblanche/
 ├── .nojekyll                   # Disables Jekyll processing on GitHub Pages
 ├── CNAME                       # Custom domain routing (asterandblanche.com)
 ├── favicon.ico                 # Atelier crest browser favicon
+├── favicon-32x32.png           # 32x32 standard browser favicon
+├── apple-touch-icon.png        # 180x180 iOS touch icon & message preview thumbnail
 ├── index.html                  # Single-file, zero-dependency master atelier page
 ├── aster-blanche-backplate.svg # Master A2 card backplate vector asset
-├── og-image.png                # Social preview card metadata asset
-├── public/
-│   └── aster-blanche-backplate.svg
+├── og-image.png                # 1200x630 Open Graph & iMessage social card asset
+├── public/                     # Static distribution mirror
 ├── robots.txt                  # Search indexing directives
 └── README.md                   # Brand canon & engineering documentation
 ```
